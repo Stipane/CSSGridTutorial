@@ -17,15 +17,18 @@
   width: 600px;
   border: 1px solid black;
 
-  /* Create 2 columns: 
-    - 200px 
-    - 400px 
-  Create 3 rows: 
+  /* Create 2 columns:
+    - 200px
+    - 400px
+  Create 3 rows:
     - 100px
-    - 400px 
+    - 400px
     - 100px */
 
   /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
+display: grid;
+grid-template-columns: 200px 400px;
+grid-template-rows: 100px 400px 100px;
 
   /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
 }
